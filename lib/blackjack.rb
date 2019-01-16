@@ -5,7 +5,7 @@ puts "Welcome to the Blackjack Table"
 end
 
 def deal_card 
-rand(11+1)
+rand(11)+1
 end
 
 # describe "#deal_card" do
